@@ -1,0 +1,39 @@
+.keyBoard {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 1rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  .bank {
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .bank:hover {
+    opacity: 0.8;
+  }
+  #display {
+    width: 250px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+  }
+}
